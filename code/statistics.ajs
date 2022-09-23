@@ -1,0 +1,6 @@
+var msg = "Model name: " + model.name + "\n";
+msg += "Number of ArchiMate elements: " + $('element').size() + "\n";
+msg += "Number of ArchiMate relationships: " + $('relationship').size() + "\n";
+msg += "Number of views: " + $('view').size();
+
+window.alert(msg);
